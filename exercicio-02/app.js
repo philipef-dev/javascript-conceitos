@@ -18,7 +18,7 @@
 Utilize os espaços entre os comentários abaixo para executar os códigos dos exercícios. Inclusive este.
 */
 
-
+console.log('Grandes poderes trazem grandes responsabilidades.');
 
 /*
 04 - Comente o console.log acima, e:
@@ -30,6 +30,13 @@ Utilize os espaços entre os comentários abaixo para executar os códigos dos e
 - Exiba a "myFavoriteTom" no console do browser.
 */
 
+const tom = 'Tom';
+const firsTom = 'Hanks';
+const secondTom = 'Cruise';
+
+const myFavoriteTom = `${tom} ${secondTom}`
+
+console.log(myFavoriteTom)
 
 
 /*
@@ -41,6 +48,10 @@ Utilize os espaços entre os comentários abaixo para executar os códigos dos e
 - Exiba a "js" no console do browser;
 */
 
+const programmingLanguage = 'JavaScritp'
+const js = programmingLanguage[0] + programmingLanguage[4];
+
+console.log(js);
 
 
 /*
@@ -59,7 +70,7 @@ const mozilla = 'Mozilla Developer Network'
 - Exiba no console do browser a quantidade de caracteres que a constante "programmingLanguage" possui;
 */
 
-
+console.log('A constante programmingLanguage possui',programmingLanguage.length, 'caracters');
 
 /*
 08 - Comente o console.log acima, e,
@@ -69,7 +80,13 @@ const mozilla = 'Mozilla Developer Network'
 - Dica: utilize a propriedade ".length".
 */
 
-let randomWord = 'Araponga'
+let randomWord = 'aew'
+
+const length = randomWord.length;
+
+const lastLatther = randomWord[length-1];
+
+console.log(lastLatther)
 
 /*
 09 - Comente o console.log acima, e,
@@ -79,7 +96,9 @@ let randomWord = 'Araponga'
 - Não digite a nova string manualmente.
 */
 
-const summerMessage = 'O VERÃO CHEGA NESTE FIM DE SEMANA'
+const summerMessage = 'O VERÃO CHEGA NESTE FIM DE SEMANA';
+
+console.log(summerMessage.toLowerCase())
 
 /*
 10 - Comente o console.log acima, e,
@@ -91,13 +110,15 @@ const summerMessage = 'O VERÃO CHEGA NESTE FIM DE SEMANA'
 
 const winterMessage = 'o inverno está chegando'
 
+console.log(winterMessage.toUpperCase());
+
 /*
 11 - Comente o console.log acima, e,
 
 - Exiba, no console, o index do caractere "v" da "winterMessage";
 */
 
-
+console.log(winterMessage.indexOf('v'))
 
 /*
 12 - Comente o console.log acima, e,
@@ -105,7 +126,7 @@ const winterMessage = 'o inverno está chegando'
 - Exiba, no console, o index da última ocorrência do caractere "n" da "winterMessage".
 */
 
-
+console.log(winterMessage.lastIndexOf('n'));
 
 /*
 13 - Comente o console.log acima, e,
