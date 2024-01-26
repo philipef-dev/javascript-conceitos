@@ -137,6 +137,8 @@ console.log(winterMessage.lastIndexOf('n'));
 
 const harryPotterAuthor = 'J.K. Rowling'
 
+console.log('Exibindo a string "JK": ',harryPotterAuthor.slice(0, 3))
+
 /*
 14 - Comente o console.log acima, e,
 
@@ -146,6 +148,8 @@ const harryPotterAuthor = 'J.K. Rowling'
 */
 
 const bestMovie = 'E o Oscar de melhor filme vai para: "La la land"!'
+
+
 
 /*
 15 - Comente o console.log acima, e,
