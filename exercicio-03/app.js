@@ -6,11 +6,13 @@
 - Inicie o seu servidor local e abra o console do browser.
 */
 
+// Done
+
 /*
 02 - Armazene um array vazio em uma let "brazilianFoods";
 */
 
-
+let brazilianFoods = [];
 
 /*
 03 - Use o método adequado para adicionar os 3 seguintes itens ao array:
@@ -19,10 +21,15 @@
 - null
 - Brigadeiro
 
+*/
+
+brazilianFoods.push('coxinha', null, 'Brigadeiro')
+
+/*
 - Exiba a brazilianFoods no console.
 */
 
-
+// console.log('Exibindo novos no array',brazilianFoods)
 
 /*
 04 - Comente o console.log acima e:
@@ -32,7 +39,11 @@ array "brazilianFoods" (null) seja substituído por "Pão de Queijo";
 - Exiba apenas o 2º item desse array no console.
 */
 
+console.log('Posição do array',brazilianFoods[1])
 
+brazilianFoods[1] = 'Pão de queijo'
+
+console.log('Neste momento temos na posição do array a palavra pão de queijo', brazilianFoods)
 
 /*
 05 - Comente o console.log acima e:
