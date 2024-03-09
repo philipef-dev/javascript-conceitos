@@ -39,11 +39,11 @@ array "brazilianFoods" (null) seja substituído por "Pão de Queijo";
 - Exiba apenas o 2º item desse array no console.
 */
 
-console.log('Posição do array',brazilianFoods[1])
+// console.log('Posição do array',brazilianFoods[1])
 
 brazilianFoods[1] = 'Pão de queijo'
 
-console.log('Neste momento temos na posição do array a palavra pão de queijo', brazilianFoods)
+// console.log('Neste momento temos na posição do array a palavra pão de queijo', brazilianFoods)
 
 /*
 05 - Comente o console.log acima e:
@@ -58,7 +58,10 @@ mas sem digitar os nomes das comidas diretamente;
 - Exiba a foodsInfo no console.
 */
 
+const foodsInfo = `Até aqui, o array "brazilianFoods" possui ${brazilianFoods.length} itens: ${brazilianFoods[0]}, ${brazilianFoods[1]} e ${brazilianFoods[2]}."`
 
+
+// console.log(foodsInfo)
 
 /*
 06 - Comente o console.log acima e:
@@ -72,6 +75,12 @@ itens "Lilica" e "Matilda";
 - Exiba a "dogNames" no console.
 */
 
+const maleDogNames = ['Chico', 'Zeca'];
+const famaleDogNames = ['Lilica', 'Matilda'];
+
+let dogNames = maleDogNames.concat(famaleDogNames);
+
+console.log('A junção dos array maleDogNames e famaleDogNames resulta no array',dogNames);
 
 
 /*
