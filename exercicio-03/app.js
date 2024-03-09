@@ -80,8 +80,7 @@ const famaleDogNames = ['Lilica', 'Matilda'];
 
 let dogNames = maleDogNames.concat(famaleDogNames);
 
-console.log('A junção dos array maleDogNames e famaleDogNames resulta no array',dogNames);
-
+// console.log('A junção dos array maleDogNames e famaleDogNames resulta no array',dogNames);
 
 /*
 07 - Comente o console.log acima e:
@@ -92,10 +91,15 @@ console.log('A junção dos array maleDogNames e famaleDogNames resulta no array
 - O resultado deve ser: "nome1, nome2, nome3, nome4".
 */
 
+dogNames.join(', ')
 
+// console.log(dogNames)
 
 /*
 08 - Comente o console.log acima e:
+
+
+const dogNames = ['Chico', 'Zeca', 'Lilica', 'Matilda']
 
 - Exiba no console o último item do array "dogNames", mas de  
 forma que caso a quantidade de itens do array aumente ou diminua,  
@@ -107,7 +111,9 @@ utilizando o método adequado para isso;
 agora é "Lilica".
 */
 
+dogNames.pop()
 
+// console.log(dogNames[dogNames.length - 1]);
 
 /*
 09 - Comente o console.log acima e:
@@ -121,7 +127,11 @@ apenas as letras iniciais dos nomes do array "dogNames";
 - Exiba a "initials" no console.
 */
 
+dogNames.push('Nina');
 
+const initial = `${dogNames[0][0]} ${dogNames[1][0]} ${dogNames[2][0]} ${dogNames[3][0]}`
+
+// console.log(initial)
 
 /*
 10 - Comente o console.log acima e:
@@ -130,6 +140,10 @@ apenas as letras iniciais dos nomes do array "dogNames";
 - Utilize o método adequado para isso.
 */
 
+
+// const test = initial.toLocaleLowerCase()
+
+// console.log('Imprimindo as iniciais com as letras minusculas = ', test)
 
 
 /*
@@ -147,6 +161,21 @@ constante que você criou.
 
 'A SOBREMESA é um doce à base de coco, tradicional na América Latina e em Angola.'
 */
+
+console.log(dogNames)
+
+const dessert = `${dogNames[0].slice(3)}${dogNames[1].slice(2)}${dogNames[3].slice(2)}`
+
+const subs = dessert.replace('n', 'd')
+
+const string = 'A SOBREMESA é um doce à base de coco, tradicional na América Latina e em Angola.'
+
+console.log(dessert)
+console.log(subs)
+
+const subs2 = string.replace('SOBREMESA', subs)
+
+console.log(subs2)
 
 
 
