@@ -23,7 +23,7 @@ let brazilianFoods = [];
 
 */
 
-brazilianFoods.push('coxinha', null, 'Brigadeiro')
+brazilianFoods.push('coxinha', null, 'Brigadeiro');
 
 /*
 - Exiba a brazilianFoods no console.
