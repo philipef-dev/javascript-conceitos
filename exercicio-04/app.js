@@ -13,7 +13,12 @@
   "Minhas 3 séries favoritas são: SÉRIE_01, SÉRIE_02 e SÉRIE_03."
 */
 
+const my3FavoriteTVShows = ['Breaking Bad', 'Lupin', 'Prison Break'];
 
+const sentence = `Minhas 3 séries favoritas são: ${my3FavoriteTVShows.join(', ')}`
+  .replace(', P', ' e P')
+
+// console.log(sentence);
 
 /*
   02 - Comente o console.log() acima e:
@@ -22,7 +27,7 @@
     possui 3 itens.
 */
 
-
+// console.log(my3FavoriteTVShows.length === 3) 
 
 /*
   03 - Comente o console.log() acima e:
@@ -36,6 +41,10 @@
 
 const randomTVShow = 'Watchmen'
 
+const isRandomTVShowIncluded = my3FavoriteTVShows.includes(randomTVShow);
+
+// console.log(isRandomTVShowIncluded);
+
 /*
   04 - Comente o console.log() acima e:
 
@@ -47,7 +56,10 @@ const randomTVShow = 'Watchmen'
   "O tipo de dado que a const "isRandomTVShowIncluded" armazena é: TIPO_DE_DADO."
 */
 
+const typeSentence = `O tipo de dado que a const "isRandomTVShowIncluded" armazena é: 
+${typeof isRandomTVShowIncluded}`
 
+// console.log(typeSentence)
 
 /*
   05 - Comente o console.log() acima e:
@@ -63,7 +75,11 @@ const randomTVShow = 'Watchmen'
   caracteres? BOOLEAN."
 */
 
+const numberOfCaracter = 39;
+const isSetenceLengthMoreThan39 = typeSentence.length > numberOfCaracter
 
+
+console.log(`A string que a "typeSentence" armazena tem mais de ${numberOfCaracter} caracteres? ${isSetenceLengthMoreThan39}.`);
 
 /*
   06 - Comente o console.log() acima e:
