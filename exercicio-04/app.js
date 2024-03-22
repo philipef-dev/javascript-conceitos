@@ -78,9 +78,8 @@ ${typeof isRandomTVShowIncluded}`
 const numberOfCaracter = 39;
 const isSetenceLengthMoreThan39 = typeSentence.length > numberOfCaracter
 
-// console.log(`A string que a 
-// "typeSentence" armazena tem mais de 
-// ${numberOfCaracter} caracteres? ${String(isSetenceLengthMoreThan39).replace('t', 'T')}`)
+
+console.log(`A string que a "typeSentence" armazena tem mais de ${numberOfCaracter} caracteres? ${isSetenceLengthMoreThan39}.`);
 
 /*
   06 - Comente o console.log() acima e:
@@ -94,8 +93,6 @@ const isSetenceLengthMoreThan39 = typeSentence.length > numberOfCaracter
 
 const falsyValues = [0, "", false, '', ``, null, undefined, NaN]
 
-console.log(`Todos os ${falsyValues.length} itens do array "falsyValues" são falsy. Inclusive o ${falsyValues[2]}.`);
-
 /*
   07 - Comente o console.log() acima e:
 
@@ -105,11 +102,7 @@ console.log(`Todos os ${falsyValues.length} itens do array "falsyValues" são fa
   - Você sabe por que essa conversão resultou em true?
 */
 
-const crazyOperation = null + 1
 
-const crazyConversion = Boolean(crazyOperation)
-
-console.log(crazyConversion)
 
 /*
   08 - Comente o console.log() acima e:
@@ -124,11 +117,7 @@ console.log(crazyConversion)
   é: BOOLEAN."
 */
 
-const ages = [31, 82, 61, 11];
-const agesSum = ages[0] + ages[2];
 
-console.log(`A soma entre o 1º e o 3º item de "ages" é menor ou igual a 92. Essa afirmação  
-é: ${agesSum <= 92}.`);
 
 /*
   09 - Comente o console.log() acima e:
@@ -139,8 +128,7 @@ console.log(`A soma entre o 1º e o 3º item de "ages" é menor ou igual a 92. E
   - Exiba a "isNotAString" no console.
 */
 
-const isNotAString = typeof randomTVShow !== 'string';
-// console.log(isNotAString)
+
 
 /*
   10 - Comente o console.log() acima e:
@@ -151,5 +139,3 @@ const isNotAString = typeof randomTVShow !== 'string';
 */
 
 const evenNumbers = [0, 2, 4, 6, 8, 10]
-
-console.log('O numero 8 existe no array',evenNumbers.indexOf(8) !== -1)
