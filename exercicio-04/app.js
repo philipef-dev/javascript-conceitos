@@ -79,7 +79,7 @@ const numberOfCaracter = 39;
 const isSetenceLengthMoreThan39 = typeSentence.length > numberOfCaracter
 
 
-console.log(`A string que a "typeSentence" armazena tem mais de ${numberOfCaracter} caracteres? ${isSetenceLengthMoreThan39}.`);
+// console.log(`A string que a "typeSentence" armazena tem mais de ${numberOfCaracter} caracteres? ${isSetenceLengthMoreThan39}.`);
 
 /*
   06 - Comente o console.log() acima e:
@@ -92,6 +92,11 @@ console.log(`A string que a "typeSentence" armazena tem mais de ${numberOfCaract
 */
 
 const falsyValues = [0, "", false, '', ``, null, undefined, NaN]
+
+const numeroDeItens = falsyValues.length
+
+console.log(`Todos os ${numeroDeItens} itens do array "falsyValues" são falsy. Inclusive o  
+BOOLEAN.`);
 
 /*
   07 - Comente o console.log() acima e:
