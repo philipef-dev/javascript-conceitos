@@ -146,12 +146,11 @@ const harryPotterAuthor = "J.K. Rowling";
 - Exiba a "realBestMovie" no console.
 */
 
-const bestMovie = 'E o Oscar de melhor filme vai para: "La la land"!'
+const bestMovie = 'E o Oscar de melhor filme vai para: "La la land"!';
 
 const realBestMovie = bestMovie.replace("La la land", "Monlight");
 
 // console.log(realBestMovie);
-
 
 /*
 15 - Comente o console.log acima, e,
@@ -160,7 +159,7 @@ const realBestMovie = bestMovie.replace("La la land", "Monlight");
 - Exiba a reminder no console. O resultado deve ser 1;
 */
 
-const reminder = 10 % 3 
+const reminder = 10 % 3;
 // console.log(reminder)
 
 /*
@@ -171,12 +170,11 @@ const reminder = 10 % 3
 - O valor exibido no console deve ser 7.
 */
 
+let episodes = 6;
 
-let episodes = 6
+episodes++;
 
-episodes++
-
-console.log(episodes)
+// console.log(episodes)
 
 /*
 17 - Comente o console.log acima, e,
@@ -186,12 +184,19 @@ console.log(episodes)
 - O valor exibido no console deve ser 6.
 */
 
+episodes--;
+
+// console.log(episodes)
+
 /*
 18 - Comente o console.log acima, e,
 
 - Utilize o operador addition assignment para atualizar o valor da let "episodes" para 10;
 - Após a atribuição, exiba a let "episodes" no console.
 */
+
+episodes += 4;
+// console.log(episodes);
 
 /*
 19 - Comente o console.log acima, e,
@@ -201,6 +206,10 @@ console.log(episodes)
 - Exiba a "allEpisodes" no console.
 */
 
+const allEpisodes = `O nº de episódios é: ${episodes}`;
+
+// console.log(allEpisodes);
+
 /*
 20 - Comente o console.log acima, e,
 
@@ -209,6 +218,9 @@ console.log(episodes)
 - Não modifique nenhuma aspas da string para aspas duplas.
 - Não use template strings.
 */
+
+const bookMessage = "'O Conto da Aia' é um dos livros mais vendidos da década.";
+// console.log(bookMessage);
 
 /*
 21 - Comente o console.log acima (e a const bookMessage caso não tenha descoberto a resolução), e,
@@ -221,7 +233,21 @@ console.log(episodes)
 - Exiba a "newName" no console;
 */
 
-// console.log(newName)
+
+const fullName = "walter white";
+
+/* Posso fazer dessa forma que não é como o exercício pede
+let newName = fullName
+  .split(" ")
+  .map((word) => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+
+*/
+
+// Ou dessa forma
+
+let newName = fullName[0].toUpperCase() + fullName.slice(1, 6) + ' ' + fullName[7].toUpperCase() + fullName.slice(8);
+
+//  console.log(newName);
 
 /*
 22 - Comente o console.log acima, e,
@@ -232,3 +258,7 @@ console.log(episodes)
 - Não modifique a string da const "name";
 - Exiba a "newName" no console;
 */
+
+newName = `${fullName[0].toUpperCase() + fullName.slice(1, 6) + ' ' + fullName[7].toUpperCase() + fullName.slice(8)}`;
+
+console.log(newName);
