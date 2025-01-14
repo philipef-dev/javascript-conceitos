@@ -12,13 +12,11 @@ function calcularDiasEntreDatas(dia, mes, ano) {
   const dias = Math.floor(diferencaMilissegundos / (1000 * 60 * 60 * 24));
 
   return {
-    dataAnterior: dataAnterior.toLocaleString('pt-BR'),
-    hoje: hoje.toLocaleString('pt-BR'),
-    dias: dias   
+    dataAnterior: dataAnterior.toLocaleString("pt-BR"),
+    hoje: hoje.toLocaleString("pt-BR"),
+    dias: dias,
   };
 }
 
-const resultado1 = calcularDiasEntreDatas(13, 1)
-console.log('Resultado foi', resultado1.dias);
-
-
+const resultado1 = calcularDiasEntreDatas(16, 1);
+console.log("Resultado foi", resultado1.dias);
