@@ -83,7 +83,7 @@ const mdn = mozilla[0] + mozilla[8] + mozilla[18];
 
 let randomWord = "JavaScript";
 
-// console.log(randomWord[2]);
+console.log(randomWord[randomWord.length-1]);
 
 /*
 09 - Comente o console.log acima, e,
@@ -261,4 +261,4 @@ let newName = fullName[0].toUpperCase() + fullName.slice(1, 6) + ' ' + fullName[
 
 newName = `${fullName[0].toUpperCase() + fullName.slice(1, 6) + ' ' + fullName[7].toUpperCase() + fullName.slice(8)}`;
 
-console.log(newName);
+// console.log(newName);
