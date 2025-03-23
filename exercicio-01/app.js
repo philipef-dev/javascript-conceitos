@@ -30,7 +30,6 @@ exercícios. Inclusive o alert mencionado acima.
 */
 
 
-
 /*
 04 - Comente o alert que você escreveu acima, utilizando o comentário de uma linha.
 */
