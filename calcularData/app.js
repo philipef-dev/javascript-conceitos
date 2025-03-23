@@ -18,5 +18,5 @@ function calcularDiasEntreDatas(dia, mes, ano) {
   };
 }
 
-const resultado1 = calcularDiasEntreDatas(10, 1)
+const resultado1 = calcularDiasEntreDatas(11, 1)
 console.log('Resultado foi', resultado1.dias);
