@@ -1,1 +1,3 @@
-# BATERIA DE EXERCÍCIOS EM JAVASCRIPT PARA PRATICAR CONCEITOS, LÓGICA DE PROGRAMAÇÃO E CÓDIGO LIMPO
+# JavaScript Fundamentos 
+
+- Bateria de exercícios em Vanilla JS para treinar fundamentos, conceitos e lógica de programação.
