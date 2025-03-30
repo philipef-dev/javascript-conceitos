@@ -26,7 +26,7 @@
 */
 
 /*
-  04
+  
 
   - Crie uma função que adiciona um amigo(a) no array de amigos do gato;
   - Exiba o array de amigos no console para verificar se o novo amigo(a) foi  
