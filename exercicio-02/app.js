@@ -83,7 +83,7 @@ const mdn = mozilla[0] + mozilla[8] + mozilla[18];
 
 let randomWord = "JavaScript";
 
-console.log(randomWord[randomWord.length-1]);
+// console.log(randomWord[randomWord.length-1]);
 
 /*
 09 - Comente o console.log acima, e,

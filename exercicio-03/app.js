@@ -55,7 +55,7 @@ const foodsInfo = `"Até aqui, o
 array "brazilianFoods" possui ${brazilianFoods.length} itens: ${brazilianFoods[0]},  
 ${brazilianFoods[1]} e ${brazilianFoods[2]}."`;
 
-console.log(foodsInfo)
+// console.log(foodsInfo)
 
 /*
 06 - Comente o console.log acima e:
@@ -69,6 +69,14 @@ itens "Lilica" e "Matilda";
 - Exiba a "dogNames" no console.
 */
 
+const maleDogNames = ["Chico", "Zeca"];
+const fameleDogNames = ["Lilica", "Matilda"];
+
+let dogNames = maleDogNames.concat(fameleDogNames);
+
+
+console.log(dogNames);
+
 /*
 07 - Comente o console.log acima e:
 
@@ -77,6 +85,8 @@ itens "Lilica" e "Matilda";
 - Utilize o método adequado para fazer isso;
 - O resultado deve ser: "nome1, nome2, nome3, nome4".
 */
+
+// console.log(dogNames.join(', '))
 
 /*
 08 - Comente o console.log acima e:
@@ -90,6 +100,9 @@ utilizando o método adequado para isso;
 - O console deve continuar exibindo o último item do array, que  
 agora é "Lilica".
 */
+
+dogNames.pop()
+console.log(dogNames[dogNames.length - 1]);
 
 /*
 09 - Comente o console.log acima e:
