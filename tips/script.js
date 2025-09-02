@@ -1,5 +1,12 @@
 // Vamos supor que eu tenha um Array de datas e quero fazer com um função me traga o mês atual 
 
-const meses = ['janeiro', 'fevereiro', 'marco', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro']
+const meses = ['marco', 'fevereiro', 'janeiro', 'junho', 'maio', 'abril', 'agosto', 'julho', 'outubro', 'setembro', 'dezembro', 'novembro'];
 
-console.log(meses)
+const mesAtual = meses[new Date().getMonth()]
+
+// Fazendo dessa forma não importa se o Array de meses estiver desordenado
+// const mesAtual = new Date().toLocaleString('default', {
+//     month: 'long'
+// })
+
+console.log(mesAtual)
