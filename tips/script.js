@@ -1,4 +1,4 @@
-// Vamos supor que eu tenha um Array de datas e quero fazer com um função me traga o mês atual 
+// Vamos supor que eu tenha um Array de datas e quero fazer com uma função me traga o mês atual 
 
 const meses = ['marco', 'fevereiro', 'janeiro', 'junho', 'maio', 'abril', 'agosto', 'julho', 'outubro', 'setembro', 'dezembro', 'novembro'];
 
